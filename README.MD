@@ -4,7 +4,7 @@ This is a GUI of a calculator that I made using cpp and SFML. It can perform bas
 The executable is located in the bin folder with all required .dll files from sfml. You are free to use that or build the index.cpp file as per instructions from the official sfml dev tutorials page. The required library files are window, system and graphics. As of now the app is 
 64-bit meaning it requires the -m64 tag at linking stage (could not figure out how to set it to 32-bit 💀). 
 
-Building requires GCC to be installed as that is what I am using. You can use the provided .bat file to build or the following commands. 
+Building requires GCC to be installed as that is what I am using. You can use the following commands. 
 (Please note you can optionally build the Button.cpp file even though it is provided in the bin folder)
 ```
 g++ -g -I./include -c ./Source/Button.cpp index.cpp -o ./Bin/Main.o
